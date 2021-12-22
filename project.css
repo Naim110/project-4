@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.logo{
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+  padding: 5%
+}
+
+
+html{
+  
+  scroll-behavior:smooth;
+}
+/* ---------------header section start------------ */
+body{
+  font-family: 'Akaya Telivigala', car sive;
+  
+}
+h2,h3,h4,h5,h6{
+  font-family: 'roboto', sans-serif;
+  
+}
+.section-title h3{
+  font-weight: bolder;
+  margin-bottom: 0px;
+  
+}
+
+  .hr-style{
+    border: 5px solid black;
+    border-bottom: none;
+    
+  
+  }
+header{
+   background-image: url(banner.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+/*   background-attachment: fixed;*/
+   background-position: center;
+  
+}
+.navbar{
+  background-color: rgba(0,0,0,0.3);
+  padding:1% 10%;
+  
+}
+  .navbar-icon{
+    color: white;
+    
+    
+  }
+  .nav-link{
+    color: white;
+    transition: .4s;
+    margin: 6px;
+  border-radius: 5px;
+  
+    
+    
+  }
+  .nav-link:hover{
+    color: white;
+    background: #2980b9;
+    transform: scale(1.1);
+    
+  }
+.banner-conatiner{
+  height: 100vh;
+  
+}
+.banner-conatiner h1{
+  
+  background-color: rgba(7, 101, 150, 0.8);
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+}
+/* ---------------header section ends------- */
+
+/*----------friend section start----------*/
+
+
+#faucather{
+  
+  padding: 5% 10%;
+  background-color: #e8ded2;
+}
+.faucather-col{
+  border: 1px solid deeppink;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 26px 0px;
+  transition: .4s;
+  
+  
+}
+.faucather-col:hover{
+  
+  transform: scale(1.1);
+  box-shadow: 2px 6px 10px black;
+  
+}
+
+  .icon-style{
+    background: deeppink;
+    padding: 8px;
+    margin: 5px 0px;
+    
+}
+
+/*----------friend section ends----------*/
+/*--------------About me section start---------------------*/
+.icon-style2{
+  background: deeppink;
+  
+}
+.potfoleo-text{
+  background: #e8ded2;
+  
+}
+.potfoleo-text span{
+  
+  font-weight: bold !important;
+  
+}
+.section-title h3 span{
+  
+  font-weight: bold;
+}
+  #about-me a{
+    
+    color: black;
+    text-decoration: underline;
+  }
+  
+ #about-me p{
+  
+   margin-bottom: 0px;
+ } 
+  #about-me p{
+  padding: 4px;
+    
+  }
+#about-me{
+  padding: 5% 10%;
+  background: #e8ded2;
+}
+#downlod-cv {
+  text-decoration: none;
+  color: white;
+  
+}
+/*----------skill start---------------*/
+
+.ster i{
+  
+  width: 18px;
+}
+
+
+/*----------skill ends---------------*/
+
+
+/*--------------About me section ends---------------------*/
+
+
+/*tuotoreal start*/
+#tutoreal{
+  padding: 4% 10%;
+  background: powderblue;
+}
+
+.card{
+  
+    border: 1px solid deeppink;
+    transition: .4s;
+    border-radius: 5px;
+  padding: 5px;
+  margin: 15px 0px;
+}
+.card:hover{
+  
+  transform: scale(1.1);
+  box-shadow: 2px 6px 10px black;
+}
+
+/* tuterial ends* /
+
+/*----------feedback start-----------------*/
+  #feedback{
+    background: palegreen;
+    padding: 5px;
+    
+  }
+  
+  .carousel-item{
+    
+     
+    width: 90px;
+    height: auto;
+    margin: 200px;
+    
+  }
+
+
+
+/*--------------feedback ends-------------------------*/
+/*-------------- contack start----------------- */
+
+#contack{
+  padding: 2% 10%;
+  background-color: turquoise;
+  
+  
+}
+
+
+
+
+
+
+
+/*-------------- contack ends----------------- */
